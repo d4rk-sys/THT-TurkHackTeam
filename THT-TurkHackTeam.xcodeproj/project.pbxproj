@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E3C9CE2C53FBCA00C43A37 /* THT_TurkHackTeamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E3C9CD2C53FBCA00C43A37 /* THT_TurkHackTeamApp.swift */; };
+		20E3C9D02C53FBCA00C43A37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E3C9CF2C53FBCA00C43A37 /* ContentView.swift */; };
+		20E3C9D22C53FBCC00C43A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E3C9D12C53FBCC00C43A37 /* Assets.xcassets */; };
+		20E3C9D52C53FBCC00C43A37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E3C9D42C53FBCC00C43A37 /* Preview Assets.xcassets */; };
+		20E3C9DF2C53FBCC00C43A37 /* THT_TurkHackTeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E3C9DE2C53FBCC00C43A37 /* THT_TurkHackTeamTests.swift */; };
+		20E3C9E92C53FBCC00C43A37 /* THT_TurkHackTeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E3C9E82C53FBCC00C43A37 /* THT_TurkHackTeamUITests.swift */; };
+		20E3C9EB2C53FBCC00C43A37 /* THT_TurkHackTeamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E3C9EA2C53FBCC00C43A37 /* THT_TurkHackTeamUITestsLaunchTests.swift */; };
+		20E3C9FA2C53FF7800C43A37 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E3C9F92C53FF7800C43A37 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20E3C9DB2C53FBCC00C43A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E3C9C22C53FBCA00C43A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E3C9C92C53FBCA00C43A37;
+			remoteInfo = "THT-TurkHackTeam";
+		};
+		20E3C9E52C53FBCC00C43A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E3C9C22C53FBCA00C43A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E3C9C92C53FBCA00C43A37;
+			remoteInfo = "THT-TurkHackTeam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20E3C9CA2C53FBCA00C43A37 /* THT-TurkHackTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "THT-TurkHackTeam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E3C9CD2C53FBCA00C43A37 /* THT_TurkHackTeamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THT_TurkHackTeamApp.swift; sourceTree = "<group>"; };
+		20E3C9CF2C53FBCA00C43A37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20E3C9D12C53FBCC00C43A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20E3C9D42C53FBCC00C43A37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20E3C9DA2C53FBCC00C43A37 /* THT-TurkHackTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "THT-TurkHackTeamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E3C9DE2C53FBCC00C43A37 /* THT_TurkHackTeamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THT_TurkHackTeamTests.swift; sourceTree = "<group>"; };
+		20E3C9E42C53FBCC00C43A37 /* THT-TurkHackTeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "THT-TurkHackTeamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E3C9E82C53FBCC00C43A37 /* THT_TurkHackTeamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THT_TurkHackTeamUITests.swift; sourceTree = "<group>"; };
+		20E3C9EA2C53FBCC00C43A37 /* THT_TurkHackTeamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THT_TurkHackTeamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20E3C9F92C53FF7800C43A37 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E3C9C72C53FBCA00C43A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E3C9D72C53FBCC00C43A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E3C9E12C53FBCC00C43A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E3C9C12C53FBCA00C43A37 = {
+			isa = PBXGroup;
+			children = (
+				20E3C9F92C53FF7800C43A37 /* Launch Screen.storyboard */,
+				20E3C9CC2C53FBCA00C43A37 /* THT-TurkHackTeam */,
+				20E3C9DD2C53FBCC00C43A37 /* THT-TurkHackTeamTests */,
+				20E3C9E72C53FBCC00C43A37 /* THT-TurkHackTeamUITests */,
+				20E3C9CB2C53FBCA00C43A37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20E3C9CB2C53FBCA00C43A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E3C9CA2C53FBCA00C43A37 /* THT-TurkHackTeam.app */,
+				20E3C9DA2C53FBCC00C43A37 /* THT-TurkHackTeamTests.xctest */,
+				20E3C9E42C53FBCC00C43A37 /* THT-TurkHackTeamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E3C9CC2C53FBCA00C43A37 /* THT-TurkHackTeam */ = {
+			isa = PBXGroup;
+			children = (
+				20E3C9CD2C53FBCA00C43A37 /* THT_TurkHackTeamApp.swift */,
+				20E3C9CF2C53FBCA00C43A37 /* ContentView.swift */,
+				20E3C9D12C53FBCC00C43A37 /* Assets.xcassets */,
+				20E3C9D32C53FBCC00C43A37 /* Preview Content */,
+			);
+			path = "THT-TurkHackTeam";
+			sourceTree = "<group>";
+		};
+		20E3C9D32C53FBCC00C43A37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20E3C9D42C53FBCC00C43A37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20E3C9DD2C53FBCC00C43A37 /* THT-TurkHackTeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				20E3C9DE2C53FBCC00C43A37 /* THT_TurkHackTeamTests.swift */,
+			);
+			path = "THT-TurkHackTeamTests";
+			sourceTree = "<group>";
+		};
+		20E3C9E72C53FBCC00C43A37 /* THT-TurkHackTeamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20E3C9E82C53FBCC00C43A37 /* THT_TurkHackTeamUITests.swift */,
+				20E3C9EA2C53FBCC00C43A37 /* THT_TurkHackTeamUITestsLaunchTests.swift */,
+			);
+			path = "THT-TurkHackTeamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20E3C9C92C53FBCA00C43A37 /* THT-TurkHackTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E3C9EE2C53FBCC00C43A37 /* Build configuration list for PBXNativeTarget "THT-TurkHackTeam" */;
+			buildPhases = (
+				20E3C9C62C53FBCA00C43A37 /* Sources */,
+				20E3C9C72C53FBCA00C43A37 /* Frameworks */,
+				20E3C9C82C53FBCA00C43A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "THT-TurkHackTeam";
+			productName = "THT-TurkHackTeam";
+			productReference = 20E3C9CA2C53FBCA00C43A37 /* THT-TurkHackTeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20E3C9D92C53FBCC00C43A37 /* THT-TurkHackTeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E3C9F12C53FBCC00C43A37 /* Build configuration list for PBXNativeTarget "THT-TurkHackTeamTests" */;
+			buildPhases = (
+				20E3C9D62C53FBCC00C43A37 /* Sources */,
+				20E3C9D72C53FBCC00C43A37 /* Frameworks */,
+				20E3C9D82C53FBCC00C43A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E3C9DC2C53FBCC00C43A37 /* PBXTargetDependency */,
+			);
+			name = "THT-TurkHackTeamTests";
+			productName = "THT-TurkHackTeamTests";
+			productReference = 20E3C9DA2C53FBCC00C43A37 /* THT-TurkHackTeamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20E3C9E32C53FBCC00C43A37 /* THT-TurkHackTeamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E3C9F42C53FBCC00C43A37 /* Build configuration list for PBXNativeTarget "THT-TurkHackTeamUITests" */;
+			buildPhases = (
+				20E3C9E02C53FBCC00C43A37 /* Sources */,
+				20E3C9E12C53FBCC00C43A37 /* Frameworks */,
+				20E3C9E22C53FBCC00C43A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E3C9E62C53FBCC00C43A37 /* PBXTargetDependency */,
+			);
+			name = "THT-TurkHackTeamUITests";
+			productName = "THT-TurkHackTeamUITests";
+			productReference = 20E3C9E42C53FBCC00C43A37 /* THT-TurkHackTeamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20E3C9C22C53FBCA00C43A37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					20E3C9C92C53FBCA00C43A37 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					20E3C9D92C53FBCC00C43A37 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 20E3C9C92C53FBCA00C43A37;
+					};
+					20E3C9E32C53FBCC00C43A37 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 20E3C9C92C53FBCA00C43A37;
+					};
+				};
+			};
+			buildConfigurationList = 20E3C9C52C53FBCA00C43A37 /* Build configuration list for PBXProject "THT-TurkHackTeam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20E3C9C12C53FBCA00C43A37;
+			productRefGroup = 20E3C9CB2C53FBCA00C43A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E3C9C92C53FBCA00C43A37 /* THT-TurkHackTeam */,
+				20E3C9D92C53FBCC00C43A37 /* THT-TurkHackTeamTests */,
+				20E3C9E32C53FBCC00C43A37 /* THT-TurkHackTeamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20E3C9C82C53FBCA00C43A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E3C9FA2C53FF7800C43A37 /* Launch Screen.storyboard in Resources */,
+				20E3C9D52C53FBCC00C43A37 /* Preview Assets.xcassets in Resources */,
+				20E3C9D22C53FBCC00C43A37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E3C9D82C53FBCC00C43A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E3C9E22C53FBCC00C43A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20E3C9C62C53FBCA00C43A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E3C9D02C53FBCA00C43A37 /* ContentView.swift in Sources */,
+				20E3C9CE2C53FBCA00C43A37 /* THT_TurkHackTeamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E3C9D62C53FBCC00C43A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E3C9DF2C53FBCC00C43A37 /* THT_TurkHackTeamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E3C9E02C53FBCC00C43A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E3C9E92C53FBCC00C43A37 /* THT_TurkHackTeamUITests.swift in Sources */,
+				20E3C9EB2C53FBCC00C43A37 /* THT_TurkHackTeamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20E3C9DC2C53FBCC00C43A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E3C9C92C53FBCA00C43A37 /* THT-TurkHackTeam */;
+			targetProxy = 20E3C9DB2C53FBCC00C43A37 /* PBXContainerItemProxy */;
+		};
+		20E3C9E62C53FBCC00C43A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E3C9C92C53FBCA00C43A37 /* THT-TurkHackTeam */;
+			targetProxy = 20E3C9E52C53FBCC00C43A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20E3C9EC2C53FBCC00C43A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20E3C9ED2C53FBCC00C43A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20E3C9EF2C53FBCC00C43A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"THT-TurkHackTeam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "THT-TurkHackTeam";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "D4RK.THT-TurkHackTeam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20E3C9F02C53FBCC00C43A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"THT-TurkHackTeam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "THT-TurkHackTeam";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "D4RK.THT-TurkHackTeam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20E3C9F22C53FBCC00C43A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "D4RK.THT-TurkHackTeamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THT-TurkHackTeam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/THT-TurkHackTeam";
+			};
+			name = Debug;
+		};
+		20E3C9F32C53FBCC00C43A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "D4RK.THT-TurkHackTeamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THT-TurkHackTeam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/THT-TurkHackTeam";
+			};
+			name = Release;
+		};
+		20E3C9F52C53FBCC00C43A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "D4RK.THT-TurkHackTeamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "THT-TurkHackTeam";
+			};
+			name = Debug;
+		};
+		20E3C9F62C53FBCC00C43A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "D4RK.THT-TurkHackTeamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "THT-TurkHackTeam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E3C9C52C53FBCA00C43A37 /* Build configuration list for PBXProject "THT-TurkHackTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E3C9EC2C53FBCC00C43A37 /* Debug */,
+				20E3C9ED2C53FBCC00C43A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E3C9EE2C53FBCC00C43A37 /* Build configuration list for PBXNativeTarget "THT-TurkHackTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E3C9EF2C53FBCC00C43A37 /* Debug */,
+				20E3C9F02C53FBCC00C43A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E3C9F12C53FBCC00C43A37 /* Build configuration list for PBXNativeTarget "THT-TurkHackTeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E3C9F22C53FBCC00C43A37 /* Debug */,
+				20E3C9F32C53FBCC00C43A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E3C9F42C53FBCC00C43A37 /* Build configuration list for PBXNativeTarget "THT-TurkHackTeamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E3C9F52C53FBCC00C43A37 /* Debug */,
+				20E3C9F62C53FBCC00C43A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20E3C9C22C53FBCA00C43A37 /* Project object */;
+}
